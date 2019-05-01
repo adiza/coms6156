@@ -30,5 +30,9 @@ programming.
 * My applications are business oriented and should be viewed as internal applications within a corporate setting.
 
 
+Research Questions and Assessment:
+1.  What are the limitations of low code platforms?
+2. In what instincts should low code be prefered over traditional techniques?
+3. How does low code impact the life cycle of software development?
 
 
