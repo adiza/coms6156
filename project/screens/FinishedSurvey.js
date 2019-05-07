@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'green'
+        backgroundColor: 'olivedrab'
 
     },
     container: {
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         maxWidth: '90%',
         alignItems: 'stretch',
         justifyContent: 'center',
-        backgroundColor: 'green',
+        backgroundColor: 'olivedrab',
         elevation: 20,
         borderRadius: 10,
     },
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         color: 'white',
         marginBottom: 20,
         fontSize: 20,
-        backgroundColor: 'green',
+        backgroundColor: 'olivedrab',
         fontWeight: 'bold',
         textAlign: "center"
         
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         color: 'white',
         marginBottom: 20,
         fontSize: 15,
-        backgroundColor: 'green',
+        backgroundColor: 'olivedrab',
         textAlign: 'center'
         
         

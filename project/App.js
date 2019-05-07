@@ -14,20 +14,20 @@ class SampleVideo extends Component {
 
   render() {
     return (
-      <View style={{ height: 300 }}>
-      <Text style={{ fontSize: 30, position: "relative", textAlign: "center" }}>Please watch this instructional tutorial to continue with Survey!</Text>
+      <View style={{ height: 450, backgroundColor: 'navy'}}>
+      <Text style={{ fontFamily: "Georgia", fontSize: 30, position: "relative", textAlign: "center", color: "olivedrab"}}>Please watch this informative video</Text>
         <WebView
         
           javaScriptEnabled={true}
           domStorageEnabled={true}
-          style={{}}
+          style={{width: 375, height: 300, justifyContent: 'center'}}
           source={{ uri: "https://www.youtube.com/watch?v=pzk_3edRgTY" }}
 
         />
         <Button
-          onPress={() => this.props.navigation.navigate('Survey')}
-          title="Continue with Survey!"
-          color="#841584"
+          onPress={() => this.props.navigation.navigate('Finished')}
+          title="Continue to End!"
+          color="olivedrab"
           accessibilityLabel="Learn more about this purple button"
           style={{}}
         />
@@ -39,17 +39,21 @@ class SampleVideo extends Component {
 
 
 const stack = createStackNavigator({
-    SampleVideo: {
-        screen: SampleVideo
-    },
 
-    Survey: {
-        screen: SurveyScreen
-    },
+  Survey: {
+    screen: SurveyScreen
+},
+SampleVideo: {
+  screen: SampleVideo
+},
 
-    Finished: {
-        screen: FinishedSurvey
-    }
+  Finished: {
+    screen: FinishedSurvey
+},
+
+
+
+
 });
 
 const AppContainer = createAppContainer(stack);
